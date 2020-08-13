@@ -14,6 +14,8 @@
 		71A6E71624E4E28100DD3245 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71A6E71524E4E28100DD3245 /* Assets.xcassets */; };
 		71A6E71924E4E28100DD3245 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71A6E71724E4E28100DD3245 /* LaunchScreen.storyboard */; };
 		71A6E71C24E4E28100DD3245 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 71A6E71B24E4E28100DD3245 /* main.m */; };
+		71A6E72624E4E2B600DD3245 /* Node.m in Sources */ = {isa = PBXBuildFile; fileRef = 71A6E72524E4E2B600DD3245 /* Node.m */; };
+		71A6E72924E4E38000DD3245 /* TreeTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 71A6E72824E4E38000DD3245 /* TreeTableView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,10 @@
 		71A6E71824E4E28100DD3245 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		71A6E71A24E4E28100DD3245 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		71A6E71B24E4E28100DD3245 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		71A6E72424E4E2B600DD3245 /* Node.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Node.h; sourceTree = "<group>"; };
+		71A6E72524E4E2B600DD3245 /* Node.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Node.m; sourceTree = "<group>"; };
+		71A6E72724E4E38000DD3245 /* TreeTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TreeTableView.h; sourceTree = "<group>"; };
+		71A6E72824E4E38000DD3245 /* TreeTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TreeTableView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +67,8 @@
 		71A6E70824E4E27E00DD3245 /* LevelStructTableView */ = {
 			isa = PBXGroup;
 			children = (
+				71A6E72324E4E29F00DD3245 /* model1 */,
+				71A6E72224E4E29600DD3245 /* view */,
 				71A6E70924E4E27E00DD3245 /* AppDelegate.h */,
 				71A6E70A24E4E27E00DD3245 /* AppDelegate.m */,
 				71A6E70C24E4E27E00DD3245 /* SceneDelegate.h */,
@@ -74,6 +82,24 @@
 				71A6E71B24E4E28100DD3245 /* main.m */,
 			);
 			path = LevelStructTableView;
+			sourceTree = "<group>";
+		};
+		71A6E72224E4E29600DD3245 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				71A6E72724E4E38000DD3245 /* TreeTableView.h */,
+				71A6E72824E4E38000DD3245 /* TreeTableView.m */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		71A6E72324E4E29F00DD3245 /* model1 */ = {
+			isa = PBXGroup;
+			children = (
+				71A6E72424E4E2B600DD3245 /* Node.h */,
+				71A6E72524E4E2B600DD3245 /* Node.m */,
+			);
+			path = model1;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,10 +172,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71A6E72624E4E2B600DD3245 /* Node.m in Sources */,
 				71A6E71124E4E27E00DD3245 /* ViewController.m in Sources */,
 				71A6E70B24E4E27E00DD3245 /* AppDelegate.m in Sources */,
 				71A6E71C24E4E28100DD3245 /* main.m in Sources */,
 				71A6E70E24E4E27E00DD3245 /* SceneDelegate.m in Sources */,
+				71A6E72924E4E38000DD3245 /* TreeTableView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
